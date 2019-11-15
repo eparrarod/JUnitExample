@@ -1,8 +1,13 @@
+package main.java;
+
 /**
  * Created by estebanparra on 4/21/19.
  */
 public class Math {
 
+    public Math(){
+
+    }
 
     public double multiply(double a, double b) {
 
