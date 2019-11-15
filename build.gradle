@@ -27,12 +27,13 @@ test {
         events "passed", "skipped", "failed"
         exceptionFormat "full"
     }
+    useJUnitPlatform()
 }
 
 sourceSets {
     test {
         java {
-            srcDir "test"
+            srcDirs = ['test']
         }
     }
 }
@@ -40,7 +41,7 @@ sourceSets {
 sourceSets {
     main {
         java {
-            srcDir "src"
+            srcDirs = ['src']
         }
     }
 }
