@@ -20,14 +20,14 @@ public class MathTest {
 
     }
 
-//    @Test
-//    public void multiplyTest() throws Exception {
-//        Math tester = new Math();
-//
-//        assertEquals(20.0, tester.multiply(10.0, 2.0), " 10.0 * 2.0 must be 20.0 ");
-//        assertEquals(5.0, tester.multiply(10.0, 0.5), " 10.0 * 0.5 must be 5.0 ");
-//
-//    }
+    @Test
+    public void multiplyTest() throws Exception {
+        Math tester = new Math();
+
+        assertEquals(20.0, tester.multiply(10.0, 2.0), " 10.0 * 2.0 must be 20.0 ");
+        assertEquals(5.0, tester.multiply(10.0, 0.5), " 10.0 * 0.5 must be 5.0 ");
+
+    }
 
 //    @Test
 //    public void divisionTest() throws Exception {
