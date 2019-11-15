@@ -28,3 +28,19 @@ test {
         exceptionFormat "full"
     }
 }
+
+sourceSets {
+    test {
+        java {
+            srcDir "test"
+        }
+    }
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir "src"
+        }
+    }
+}
